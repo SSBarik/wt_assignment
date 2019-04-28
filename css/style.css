@@ -1,0 +1,86 @@
+#main {
+    margin-top: 40px;
+    border: 1px inset #FFD20A;
+    border-bottom: 6px solid #FFD20A;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+ .x {
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.b {
+    color: yellow;
+}
+
+.grow { 
+    background-color: #000000; 
+    color: #FFFFFF; 
+    transition: all .2s ease-in-out;
+    border-bottom: 2px solid #FFD20A; 
+}
+
+.grow:hover { 
+    color: #FFD20A;
+    transform: scale(1.1);
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.nav-elevate {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+}
+
+.nav-elevate:hover {
+    background: transparent;
+    color: orange;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+#hh {
+    background: transparent;
+    color: #FFFFFF;
+}
+#b1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#b2 {
+    font-family: Barrio;
+    color: #000;
+    padding: 10px;
+}
+
+#j {
+    background: rgba(0, 0, 0, 0.9);
+    color: #FFFFFF;
+}
+
+h4 {
+    padding: 10px;
+    font-weight: bold;
+    border-left: 2px solid #ffc107;
+}
+
+#j2 {
+    background: transparent;
+    color: white;
+    border-right: 1px solid #FFC107;
+    padding: 20px;
+}
